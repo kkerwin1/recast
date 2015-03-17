@@ -13,8 +13,8 @@ Methodology
 
 (1) Existing on individual nodes throughout the network. A node consists of a
     computer <a> connected to either a TV or speaker.
-(2) Providing a single front-facing ChromeCast receiver, usable by any device
-    able to cast to a Chromecast.
+(2) Providing a single front-facing ChromeCast receiver service, usable by any 
+    device able to cast to a ChromeCast.
 (3) "recast"ing the received ChromeCast signal to any other peer node, or to
     any other bona fide ChromeCast device in parallel.
 (4) Providing an HTML5 interface so that the user may specify which other
