@@ -1,0 +1,32 @@
+recast (c) 2015
+Kristopher H Kerwin
+kkerwin1@gmail.com
+
+Purpose
+-------
+The purpose of "recast" is to augment Google's excellent ChromeCast device by
+enabling casting to multiple devices, vis a vis whole-home audio or video.
+
+Methodology
+-----------
+"recast" will work by performing the following:
+
+(1) Existing on individual nodes throughout the network. A node consists of a
+    computer <a> connected to either a TV or speaker.
+(2) Providing a single front-facing ChromeCast receiver, usable by any device
+    able to cast to a Chromecast.
+(3) "recast"ing the received ChromeCast signal to any other peer node, or to
+    any other bona fide ChromeCast device in parallel.
+(4) Providing an HTML5 interface so that the user may specify which other
+    node(s) or ChromeCast(s) to cast to.
+
+Clearly, ChromeCast may not be used in order to "recast" to other ChromeCasts,
+as no access is provided to the ChromeCast without rooting the device. However,
+ChromeCast as a device choice does still serve an important aspect in the
+"recast" ecosystem: cheap and easily-configurable clients of the "recast"
+household.
+    
+Footnote <a>: Ideally, RaspberryPi or some other cheap, disposable computer
+              could be used for each node. RaspberryPi already comes equipped
+              with an HDMI port for TVs, and a 3.5 mm stereo audio jack for
+              speakers. 
